@@ -1,0 +1,45 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(/candy_background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.grid{
+    height: 608px;
+    width: 608px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 175px;
+}
+
+.grid div{
+    height:76px;
+    width:76px;
+}
+
+.score{
+    margin-top:350px;
+    margin-left:300px;
+}
+.tagscore{
+    font-weight: bold;
+    font-style: italic;
+    font-size:60px;
+    color:rgb(145, 6, 145);
+    padding-left: 50px;
+}
+.scorel{
+    width:300px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 3px solid goldenrod;
+    padding:8px;
+    font-size: 30px;
+    font-style:italic;
+    font-weight: bold;
+    color: purple ;
+}
